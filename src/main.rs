@@ -1,6 +1,7 @@
-use audioengine;
+use audioengine::*;
 
 fn main() {
-    println!("Hello, world!");
-    Filter::FilterOut();
+    println!("init...");
+    version::print_full_version();
+    filter::filter_out();
 }
