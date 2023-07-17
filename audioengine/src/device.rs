@@ -24,6 +24,7 @@ enum InputType {
 struct DeviceBox {
     kind: DeviceType,
     address: String,
+    timestamp: String,
     buffer: DeviceContent,
     ins:  [u64; 64],  // 64 inputs
     outs:  [u64; 64], // 64 outputs

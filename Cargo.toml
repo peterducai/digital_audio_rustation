@@ -8,4 +8,6 @@ edition = "2021"
 [dependencies]
 audioengine = { path = "./audioengine" }
 #gui = { path = "./gui" }
-wgpu = "0.16.2"
+egui = "0.22.0"
+eframe = "0.22.0"
+env_logger = "0.10.0"
