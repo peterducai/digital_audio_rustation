@@ -7,7 +7,6 @@ edition = "2021"
 
 [dependencies]
 audioengine = { path = "./audioengine" }
-#gui = { path = "./gui" }
-egui = "0.22.0"
-eframe = "0.22.0"
-env_logger = "0.10.0"
+flo = "0.1.0"
+flo_draw = "0.3.1"
+flo_canvas = "0.3.1"
