@@ -1,0 +1,151 @@
+Four EQ Bands
+Each of the four EQ bands have similar controls. The Band Gain is
+controlled by the top row of knobs, the Band Q- Factor is controlled by the
+middle row and the Band Center Frequency is controlled by the bottom
+row.
+1 On Switches
+Switch each EQ band and its accompanying components on and off. Use
+this to solo, or listen to specific bands together.
+2 Gain
+Each band has a ±8dB gain control which operates in 0.5dB Steps from 0
+to +-3dB and from +-3 to +-8dB in 1dB Steps.
+3 Q Control
+Q control ranging in four steps from 0.5 to 1.5. and can be switched to
+shelf mode at right stop. Filters are Peak Filters except when in Shelf
+position, then its a Low-Shelf for Low and Low-Mid Bands and High-Shelf
+for High and High-Mid Bands.
+4 Frequency
+The frequency control for each band is stepped, with 16 different positions.
+Low Band: 27 - 470 Hz
+Low Mid Band: 100Hz - 1.8kHz
+High Mid Band: 560Hz - 10kHz
+High Band: 1.5 - 27 kHz
+2
+4
+1
+3
+5
+SOMA EQ
+Plugin Manual
+1 EQ On
+Switches the Global Channel bands and its accompanying components
+on or off.
+2 Mute
+Mutes the channel.
+3 Trim
+Selects a Trim Gain for the Channel. This control is not symmetrical.
+It runs from 0 to +3dB dB in 0.25dB steps and 0 to -8 dB.
+4 HP Filter Slope
+HP and LP filter slopes are gentle, with round corner, and reach 12dB/oct slope.
+HP filter can be switched for elliptic filter, which has 6dB/oct slope.
+5 HP (High Pass Filter)
+Switch between the following ranges: off/25/33/50 Hz at 12dB/oct and
+140 / 200 / 280 Hz at 6dB/oct.
+Tip: An „elliptic equalizer“ is used during vinyl mastering to prevent
+playback skipping on music having wide stereo bass. The bass-to-mono
+elliptic EQ gets its name from the width of ellipses in the recorded groove
+or Lissajous patterns on an oscilloscope.
+3
+4 5
+1
+2
+6
+SOMA EQ
+Plugin Manual
+1 LP (Low Pass Filter)
+Switch between the following ranges: off/24/20/17 kHz.
+2 Auto Listen
+When Auto Listen is engaged: As long as the frequency- or q-control of a
+specific eq-band is clicked, everything outside of the filter‘s bandwidth is
+muted. This let‘s you listen to the effect of a single eq-band depending on
+It‘s frequency and q. While listening, The gain is normalized.
+Please check page 13 Modifier Keys.
+3 M/S
+Engages Mid/Side processing. When this is set to On, the Left Channel
+processes the Mid (Sum) of both channels and the Right Channel processes
+the Side (difference) of both channels.
+4 Parameter Link
+This enables or disables linking of parameters for Dual Mono and Stereo
+operations. When both parameters have different values and link is
+engaged, both parameter values remain unless one of them is touched
+and any control offsets between channels are lost.
+5 Power
+Switches the Plugin On & Off. The indicator LED will light when the Soma
+is active. This parameter is linked to the BYPASS button in the Plugin
+Alliance Toolbar.
+1 4
+2
+3
+5
+7
+SOMA EQ
+Plugin Manual
+BX Module
+TMT Inside
+The SOMA EQ offers 20 different eq channels, made possible by TMT.
+TMT is Brainworx‘s (TMT, US Patent No. 10,725,727) “Tolerance Modeling
+Technology”, originally found in the bx_console line of plugins. It takes the
+real-world tolerances of audio components found in audio circuits into
+account, and offers various channels of analog audio which have realistic
+variances in frequency response, time constants in dynamic sections, etc.
+The result is digital audio that sounds as analog as possible, whereas
+even the L/R channels of a stereo instance will react slightly different.
+For more information please check www.brainworx.audio
+1 Stereo Mode
+Toggles between using the same TMT channel for both units (Digital) and
+using two adjacent TMT channels (Analog).
+2 Channels
+TMT, switches between 20 different channels. In a Stereo instance, two
+adjacent channel numbers will be displayed. Each channel has its own,
+different character!
+3
+2
+8
+SOMA EQ
+Plugin Manual
+1 Random Channel
+Whenever you instantiate a SOMA EQ plugin on a channel, it will start
+with the Default setup, which is Channel 1 in a flat setting. You can now
+randomize a channel by clicking the Random Channel button. Only the
+plugin instance you click on will switch to any unused channel number in
+that session randomly. The plugin will remember which channel numbers
+are already used in a session and activate an unused channel number,
+unless you engage more than 20 channels. At that point the plugin
+obviously would have to use a channel number that has already been
+used.
+2 Mono Maker
+This tool is a critical component to several Brainworx processors, and it is
+an invaluable tool when mastering or tightening up a mix. Sweepable from
+20 Hz to 2 kHz, this parameter folds the processed sound to mono at and
+below the frequency set. The most common setting is between 100-200
+Hz, below which bass frequencies reside, where common practice deems
+that most sound should be mono. Other uses include folding an entire mix
+in order to check mono compatibility and avoid phase incoherency. It can
+be bypassed at the left stop position.
+1 2
+9
+SOMA EQ
+Plugin Manual
+1 Stereo Width
+Make your mix wider than it originally was by increasing the Stereo Width
+without losing the center of your recordings! You will not lose bass drum
+power or vocals by making your mix wider this way... and it will not sound
+different played back in mono at all. If you notice your Correlation Meter
+(you can find a correlation meter in the bx_meter plugin) showing less
+than 90°, dial up the Mono Maker a bit to tighten up the low-end until
+acceptable levels are shown.
+2 Input Gain
+The Input Gain control sets the level at the input of the plugin. The range
+is from -8 dB to +8 dB.
+3 Headroom
+It Adjusts the internal operating level so that the Plugin produces more
+or less harmonics / coloration. Rotating the control clockwise will allow
+signals at the input to be pushed higher before they saturate, this will
+result in less coloration overall. By rotating counter-clockwise headroom
+is decreased resulting in a greater amount of saturation and more colour
+being added to the signal.
+4 Out Gain
+Adjusts the Output Level of the plugin. The range is from -8 dB to +8 dB.
+5 Input and Output Meter
+The input meter shows signal level before all processing and the output
+meter the level after all processing. All meters show levels in dBFS.

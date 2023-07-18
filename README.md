@@ -3,3 +3,8 @@
 **just concept**
 
 DAR, open-source DAW in RUST.
+
+## Engine/CLI
+
+
+## DAW/GUI

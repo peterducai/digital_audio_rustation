@@ -1,0 +1,33 @@
+SSL G-Equalizer Controls and Indicators
+1. High pass filter (white knobs on the left) 18 dB/octave, 16 Hz – 350 Hz. Filter
+in/out switch, with indicator.
+2. Low frequency EQ section (black knobs) Shelving. Range 30 Hz – 450 Hz. Gain
+range ±17 dB.
+3. Low medium frequency EQ section (blue knobs) Range 200 Hz – 2.5 kHz. Q is
+continuously adjustable from 0.1 to 3.5. Gain varies from ±20 dB when Q is set at
+3.5, to ±15 dB when Q is set at 0.1. The ÷3 button divides the selected frequency
+by three (e.g., if you have selected a center frequency of 300 Hz, pressing the ÷3
+button will result in a frequency of 100 Hz.)
+4. High medium frequency EQ section (green knobs) Range 600 Hz – 7 kHz. As
+in the LMF EQ section, Q is continuously adjustable from 0.1 to 3.5. Gain varies
+from ±20 dB when Q is set at 3.5, to ±15 dB when Q is set at 0.1. The x3 button
+allows you to multiply the selected frequency by three.
+5. High frequency EQ section (purple knobs) Range 1.5 kHz – 16 kHz. Gain range
+±17 dB, shelving.
+6. EQ IN (far right) The EQ IN button bypasses the EQ section but leaves the filter in
+(if engaged.)
+7. Phase reverse (ø) This button reverses the phase of the input signal.
+8. Master Output (far right) Master Output fader controls overall output of the
+processor.
+9. Trim button Above the meter display is a trim button (12). Pressing the trim
+button will trim the output level by the amount indicated on the button this trim will
+bring you to -0.1db in peak which is the full 24bit output level. A positive indication
+in this mode expresses how much headroom you have remaining. A negative
+display indicates how much you must reduce your signal to avoid digital clipping.
+10. Analogue on/off. Classic analogue processors necessarily create more noise and
+harmonic distortions than modern digital devices. This is, in part, what gives
+analogue processors their desired sound. By default, all components of the SSL 
+SSLEQ page 4
+4000 Collection operate in a mode which enables emulation of the SSL console.
+However, there may be times when you prefer to use this plug-in without these
+special attributes. Switching off Analogue disables analogue emulation. 
